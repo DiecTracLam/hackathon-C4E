@@ -1,0 +1,29 @@
+div.container{
+    height: 500px;
+    border: 3px solid red;
+}
+div.img {
+    background-image: url('../public3/India1.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+div.content{
+    position: absolute;
+    left:20%;
+    top:50%;
+    border:2px solid blue;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+}
+div.img{
+    padding-top: 140px;
+    text-align: center;
+    color:whitesmoke;
+}
+div.sibar{
+    display: inline-block;
+}
+

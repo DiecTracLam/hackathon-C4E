@@ -1,0 +1,194 @@
+/*
+
+	Theme Name: Adventure Tours Child
+
+	Theme URI: http://themeforest.net/user/themedelight/portfolio
+
+	Description: Adventure Tours child theme
+
+	Template: adventure-tours
+
+	Version: 1.0.0
+
+*/
+.icon-tick--on {
+    color: #0F0;
+}
+
+#logoLink img {
+    max-height: 155px;
+    max-width: 300px;
+    margin-bottom: -60px;
+    margin-top: -23px;
+    z-index: 999999999;
+    position: absolute;
+}
+
+.grecaptcha-badge{
+    visibility: collapse !important;  
+}
+
+@media (max-width: 991px) {
+    #logoLink img {
+        max-width: 130px !important;
+        margin-top: 10px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo {
+        float:left !important;
+    }
+}
+
+.list-block--tour-tabs
+{
+display:none;
+}
+.main-nav .sub-menu {
+    width: 250px;
+}
+/*.header-section__title {*/
+.tp-resizeme{
+	background-color: rgba(0, 0, 0, 0.7) !important; 
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto !important; /* keep the block centered */
+    padding: 5px;
+  /*  color: #0000FF !important; */
+	font-family:  Arial, sans-serif !important; 
+		white-space: nowrap !important;    
+}
+.header-section__description {
+/*	background-color: rgba(0, 0, 0, 0.8);*/
+	background-color: rgba(255, 255, 255, 0.4);
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the block centered */
+    padding: 5px;
+    color: #000000;
+	font-family:  Arial, sans-serif;    
+}
+
+.row {
+	margin-bottom: 50px;
+}
+
+.lacititle {
+	background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+.related-tours .atgrid__item__description {
+	display: none;
+}
+
+.atgrid__row .atgrid__item__description {
+	min-height: 146px;
+}
+.swiper-slide .atgrid__item__description {
+	min-height: 70px;
+}
+
+
+
+
+.title-block-link--with-button .title-block-link__text-wrap {
+    display: block;
+    vertical-align: middle;
+}
+
+.title-block-link--with-button .title-block-link__button-wrap {
+    display: block;
+    width: 100%;
+    padding-left: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto 0;
+    padding-bottom: 20px;
+}
+
+@media only screen 
+and (max-device-width : 720px) {
+  /* Styles */
+
+#tabatab1 {
+	display : block !important; 
+	visibility: visible !important;
+}
+.fade {
+    opacity: 1 !important;
+}
+
+  
+	.atgrid__row .atgrid__item__description {
+		min-height: 446px;
+	}
+	.swiper-slide .atgrid__item__description {
+		min-height: 370px;
+	}
+
+}
+/*
+@font-face {
+    font-family: Capture-it; 
+    src: url(http://www.eurorallies.com/wp-content/themes/adventure-tours-child/Capture_it.ttf); 
+    font-weight: normal; 
+}
+
+.h1 .h2 .h3 .h4. h5 .h6 {
+	font-family: "Capture-it", Arial, sans-serif;
+	color: #EF5032;
+	font-weight: 100;
+}	
+
+.title__primary
+{
+	font-family: "Capture-it", Arial, sans-serif;
+	color: #EF5032;
+	font-weight: 100;
+}	
+.tp-static-layers
+{
+	font-family: "Capture-it", Arial, sans-serif;
+	color: #EF5032;
+	font-weight: 100;
+}
+
+.atgrid__item__title a {
+	font-family: "Capture-it", Arial, sans-serif;
+	color: #EF5032;
+	font-weight: 100;	
+}	
+
+.icons-set__item__title {
+	font-family: "Capture-it", Arial, sans-serif;
+	color: #EF5032;
+	font-weight: 100;		
+}
+
+.title-block-link__title {
+	font-family: "Capture-it", Arial, sans-serif;
+	color: #EF5032;
+	font-weight: 100;			
+}
+.tp-caption{
+	font-family: "Capture-it", Arial, sans-serif;
+	color: #EF5032;
+	font-weight: 100;				
+}
+.header-section--with-banner .header-section__title {
+	font-family: "Capture-it", Arial, sans-serif;
+	color: #EF5032;
+	font-weight: 100;	
+	text-shadow: 2px 2px #FFFFFF;				
+}
+
+
+.header {
+	background-color: rgba(239, 80, 50, 0.8);
+}
+*/
+
+.n2-section-smartslider {
+    margin-bottom:40px;
+}
